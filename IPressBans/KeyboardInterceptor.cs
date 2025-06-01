@@ -62,11 +62,6 @@ namespace IPressBans
                     return (IntPtr)1;
                 }
 
-                if (key == Key.Escape)
-                {
-                    Environment.Exit(0);
-                }
-
                 // Combine all active blocked letters
                 var combined = new HashSet<string>(StringComparer.OrdinalIgnoreCase);
 
